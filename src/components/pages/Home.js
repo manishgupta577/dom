@@ -16,9 +16,19 @@ function Home() {
       
 
       <Transportation/>
+      <div class="container">
+        
+      <hr class="dashed"></hr>
+      </div>
+      
       <Special/>
+      <div class="container">
+        
+      <hr class="dashed"></hr>
+      </div>
       
       <Reach/>
+      
       <Footer/>
       
 

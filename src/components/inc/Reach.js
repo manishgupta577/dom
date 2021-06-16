@@ -6,11 +6,11 @@ function Reach(){
 
           
           <section class="contact" id="contact">
-        <div class="max-width">
+        <div class="container">
             
             <div class="contact-content">
-            <h2 class="title">Contact me</h2>
-                <div class="column right">
+            <h2 class="title">Stay Connected</h2>
+                <div class="column center">
                     
                     <form action="#">
                         <div class="fields">

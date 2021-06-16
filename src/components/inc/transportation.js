@@ -7,7 +7,10 @@ function Transportation(){
     return(
         <div>
             <section className="section">
+            
         <div className="container">
+        <div className="card mt-4">
+            <div className="card">
           <div className="row">
             <div className="col-md-12 text-center">
               <h3 className="main-heading">Our Company</h3>
@@ -16,8 +19,15 @@ function Transportation(){
               MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower
               </p>
               <Link to="/about" className="btn btn-warning shadow">READ MORE</Link>
+              <p>                                   
+
+                
+              </p>
+
             </div>
           </div>
+        </div>
+        </div>
         </div>
 
       </section>
