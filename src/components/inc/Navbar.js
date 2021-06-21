@@ -23,7 +23,7 @@ function Navbar1() {
       <Nav.Link href="#"><div className="nav-content"><Link to="/"><b>HOME</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-      <Nav.Link href="#"><div className="nav-content"><Link to="about"><b>ABOUT</b></Link></div></Nav.Link>
+      <Nav.Link href="#"><div className="nav-content"><Link to="/about"><b>ABOUT</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
         <Nav.Link href="#"><div className="nav-content"><Link to="/contact"><b>CONTACT</b></Link></div></Nav.Link>
