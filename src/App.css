@@ -6,8 +6,12 @@
   
 }
 .section{
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.stick {
+  position: sticky;
+  top: 0;
 }
 .car{
   padding-bottom: -120px;
@@ -19,11 +23,11 @@
   padding-bottom: -120px;
 }
 .section1{
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   text-align: center;
 }
 .section2{
-  padding-top: 100px;
+  padding-top: 80px;
   
 }
 .nav-brand{
@@ -48,12 +52,17 @@
   
   padding-bottom: 30px;
 }
+.link{
+  text-decoration: none;
+  color:rgb(170, 15, 15);
+}
 .nab{
   padding-left: 50px;
   color:rgb(170, 15, 15);
 }
 .nav-content{
   color:rgb(170, 15, 15);
+  text-decoration: none;
 }
 
 .Navbar .Brand{
