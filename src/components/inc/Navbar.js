@@ -10,9 +10,9 @@ function Navbar1() {
   return(
     <div>
      
-    <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark" sticky="top">
+    <Navbar className="stick" collapseOnSelect expand="lg" bg="warning" variant="dark" >
     <div className="nav-brand">
-    <Navbar.Brand href="/"><div className="nab"><img src={logo} alt="" width="50" height="45"/><b>                       MANGO TREE</b></div></Navbar.Brand>
+    <Navbar.Brand href="/"><div className="nab"><img src={logo} alt="" width="50" height="45"/><Link className="link" to="/" ><b>                                         MangoTree</b></Link></div></Navbar.Brand>
     </div>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,20 +20,20 @@ function Navbar1() {
       <Nav className="mr-auto">
       
       <div className="nav-item">
-      <Nav.Link href="#"><div className="nav-content"><Link to="/"><b>HOME</b></Link></div></Nav.Link>
+      <Nav.Link href="#"><div className="nav-content"><Link className="link" to="/" ><b>HOME</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-      <Nav.Link href="#"><div className="nav-content"><Link to="/about"><b>ABOUT</b></Link></div></Nav.Link>
+      <Nav.Link href="#"><div className="nav-content"><Link className="link" to="/about"><b>ABOUT</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link href="#"><div className="nav-content"><Link to="/contact"><b>CONTACT</b></Link></div></Nav.Link>
+        <Nav.Link href="#"><div className="nav-content"><Link className="link" to="/contact"><b>CONTACT</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link href="/project"><div className="nav-content"><Link to="/project"><b>PRODUCTS</b></Link></div></Nav.Link>
+        <Nav.Link href="/project"><div className="nav-content"><Link className="link" to="/project"><b>PRODUCTS</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link eventKey={2} href="#"><div className="nav-content">
-          <b>SUPPORT</b></div>
+        <Nav.Link eventKey={2} href="#"><div className="nav-content"><Link className="link" to="/" >
+          <b>SUPPORT</b></Link></div>
         </Nav.Link>
         </div>
         
