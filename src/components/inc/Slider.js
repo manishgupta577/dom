@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Slider1 from '../images/banner.png';
-import Slider2 from '../images/bradcam2.png';
+import Slider2 from '../images/1 (1).jpg';
+import Slider1 from '../images/Water transport.jpeg';
 import Slider3 from '../images/Estimate_bg.png';
+import Slider4 from '../images/bradcam2.png';
 function Slider(){
     return(
+      <div>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -13,20 +15,23 @@ function Slider(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={Slider1} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-      <Link to="/about" className="btn btn-danger btn-lg">ABOUT US</Link>
       
-      
-      
-        
-        
+    <div class="carousel-caption d-none d-md-block">
+      <Link to="/about" className="btn btn-warning btn-lg">ABOUT US</Link>
       </div>
+      
+      
+      
+        
+        
+      
+      <img src={Slider1} class="d-block w-100" alt="..."/>
+      
     </div>
     <div class="carousel-item">
-      <img src={Slider2} class="d-block w-100" alt="..."/>
+      <img src={Slider4} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-      <Link to="/about" className="btn btn-danger btn-lg">ABOUT US</Link>
+      <Link to="/about" className="btn btn-warning btn-lg">ABOUT US</Link>
        
         
       </div>
@@ -34,7 +39,7 @@ function Slider(){
     <div class="carousel-item">
       <img src={Slider3} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-      <Link to="/about" className="btn btn-danger btn-lg">ABOUT US</Link>
+      <Link to="/about" className="btn btn-warning btn-lg">ABOUT US</Link>
       
         
       </div>
@@ -49,7 +54,7 @@ function Slider(){
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
     );
 }
 export default Slider;

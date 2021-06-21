@@ -11,7 +11,7 @@ import Reach from '../inc/Reach';
 
 function Home() {
   return(
-      <div>
+      <div >
       <Slider/>
       
 

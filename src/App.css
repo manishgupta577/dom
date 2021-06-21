@@ -1,6 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
 .section{
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.car{
+  padding-bottom: -120px;
+}
+.carousel-inner .btn {
+  padding-bottom: -120px;
+}
+.carousel-caption{
+  padding-bottom: -120px;
 }
 .section1{
   padding-bottom: 100px;
@@ -10,19 +26,54 @@
   padding-top: 100px;
   
 }
-.navbar-brand{
+.nav-brand{
+  padding-left: 50px;
+  padding-right: 100px;
+  color:rgb(170, 15, 15);
+}
+.nab{
+  margin-top:10px;
+  
+  color:rgb(170, 15, 15);
+  padding-left: 10px;
+  margin-bottom: -20px;
+  
+}
+.copyright{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  font-size:60px;
+  
+  padding-bottom: 30px;
+}
+.nab{
+  padding-left: 50px;
+  color:rgb(170, 15, 15);
+}
+.nav-content{
+  color:rgb(170, 15, 15);
+}
+
+.Navbar .Brand{
   padding-left: 50px;
   padding-right: 10px;
+  color:rgb(170, 15, 15);
 }
 .nav-item{
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 10px;
+  font-size:20px;
+  
+  
   
 }
 .nav-link active{
    display:flex;
    padding-left: 43px;
 }
+
 
 .main-heading{
   color:rgb(170, 15, 15);

@@ -1,64 +1,54 @@
 import React from 'react';
 import logo from '../images/world.png';
 import {Link} from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 
-function Navbar() {
+
+function Navbar1() {
   return(
-    <div className="navbar-dark sticky-top bg-warning">
-    <div className="container">
-        <div className="row">
-            <div className="col-md-12">
-            <nav class="navbar sticky-top navbar-expand-lg  ">
-<div class="container-fluid">
-<Link to="/" class="navbar-brand" ><img src={logo} alt="" width="40" height="35"/>                                                MANGO TREE    </Link>
-
-
-
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
- <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-   
-   <li class="nav-item ">
-     <Link to ="/" class="nav-link active"><b>HOME</b></Link>
-   </li>
-   <li class="nav-item">
-     <Link to ="/about" class="nav-link active"><b>ABOUT US</b></Link>
-   </li>
-   <li class="nav-item dropdown">
-   <Link to ="/contact" class="nav-link active"><b>CONTACT US</b></Link>
-   </li>
-   
-   
-   <li class="nav-item dropdown">
-   <Link to ="/project" class="nav-link active"><b>PROJECTS</b></Link>
-   </li>
-   <li class="nav-item dropdown">
-     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <b>OTHERS</b>
-     </a>
-     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-       <li><a class="dropdown-item" href="#">Action</a></li>
-       <li><a class="dropdown-item" href="#">Another action</a></li>
-       <li><hr class="dropdown-divider"/></li>
-       <li><a class="dropdown-item" href="#">Something else here</a></li>
-     </ul>
-   </li>
-   
- </ul>
- 
-</div>
-</div>
-</nav>
-            </div>
-        </div>
+    <div>
+     
+    <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark" sticky="top">
+    <div className="nav-brand">
+    <Navbar.Brand href="/"><div className="nab"><img src={logo} alt="" width="50" height="45"/><b>                       MANGO TREE</b></div></Navbar.Brand>
     </div>
-</div> 
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <div className="navo">
+      <Nav className="mr-auto">
+      
+      <div className="nav-item">
+      <Nav.Link href="/"><div className="nav-content"><b>HOME</b></div></Nav.Link>
+      </div>
+      <div className="nav-item">
+        <Nav.Link href="/about"><div className="nav-content"><b>ABOUT</b></div></Nav.Link>
+      </div>
+      <div className="nav-item">
+        <Nav.Link href="/contact"><div className="nav-content"><b>CONTACT</b></div></Nav.Link>
+      </div>
+      <div className="nav-item">
+        <Nav.Link href="/project"><div className="nav-content"><b>PRODUCTS</b></div></Nav.Link>
+      </div>
+      <div className="nav-item">
+        <Nav.Link eventKey={2} href="#memes"><div className="nav-content">
+          <b>SUPPORT</b></div>
+        </Nav.Link>
+        </div>
+        
+
+       
+      </Nav>
+      </div>
+      
+    </Navbar.Collapse>
     
+  </Navbar>
+  
+</div>
    );
 
  }
 
-export default Navbar;
+export default Navbar1;

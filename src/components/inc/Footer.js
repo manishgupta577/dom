@@ -11,7 +11,7 @@ function Footer(){
                    <h6>Comapny Information</h6>
                    <hr/>
                    <p>
-                   It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                   Mango Tree Group is a professional enterprise engaged in shipbuilding,ship maintenance and water project. Currently the shipbuilding includes passenger ship, ferry, cargo ship, push boat, tugboat, patrol boat, fishing boat, dredger and others; water project includes: waterway dredging, cleaning of the water surface, port construction, water transport, water building etc. it is all provided with a comprehensive package of program planning, professional technical support, design, installation and after-sales service.
                    </p>
                   
                    
@@ -23,7 +23,7 @@ function Footer(){
                    <div><Link to ="/">Home</Link></div>
                    <div><Link to ="/about">About Us</Link></div>
                    <div><Link to ="/contact">Contact Us</Link></div>
-                   <div><Link to ="/">Project</Link></div>
+                   <div><Link to ="/project">Products</Link></div>
                    <p> 
 
 
@@ -48,24 +48,25 @@ function Footer(){
         ><i class="fab fa-instagram"></i
       ></a>
 
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
+      
+      
       
                </div>
                <div className="col-md-4">
                    <h6>Contact information</h6>
                    <hr/>
-                   <div><p className="text-white mb-1">6th Block, Koramangala, Bengaluru, Karnataka</p></div>
-                   <div><p className="text-white mb-1">+91 9211833829</p></div>
-                   <div><p className="text-white mb-1">+91 9128833299</p></div>
-                   <div><p className="text-white mb-1">abc@gmail.com</p></div>
+                   <div><p className="text-white mb-1">Address:Bugiri,Kawuku Entebbe road,Uganda</p></div>
+                   
+                   <div><p className="text-white mb-1">+256-777376666</p></div>
+                   <div><p className="text-white mb-1">+256-778155530</p></div>
+                   <div><p className="text-white mb-1">+256-782993007 </p></div>
+                   
+                   <div><p className="text-white mb-1">Email:mangotreeafrica@gmail.com</p></div>
          
+               </div>
+               <div className="copyright">
+               <p class="text-muted">All rights reserved  © 2017 Mango Tree Group limited Copyright Reserved.</p>
                </div>
            </div>
            </div>

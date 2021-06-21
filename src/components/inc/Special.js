@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import pic4 from '../images/about.png';
-import sic1 from '../images/service_details.png';
-import sic2 from '../images/x2.png.pagespeed.ic.U95_DAms4-.jpg';
-import sic3 from '../images/x3.png.pagespeed.ic.lD8zXM-r9m.png';
+import sic1 from '../images/water1.jpg';
+import sic2 from '../images/water2.jpg';
+import sic3 from '../images/water3.jpg';
 import Aslider from './Aslider';
 function Special(){
     return(
@@ -81,7 +81,7 @@ function Special(){
 <li> Voluptatem quia voluptas sit aspernatur.</li>
 </ul>
 <div class="about_btn">
-<Link to="/about" className="btn btn-danger btn-lg">ABOUT US</Link>
+<Link to="/about" className="btn btn-warning btn-lg">ABOUT US</Link>
 </div>
 </div>
 </div>
@@ -98,7 +98,64 @@ function Special(){
 
 <section className="section">
 <div class="container">
-<Aslider/>
+<h3 className="main-heading text-center">Our Projects</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src={sic1}
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">DT4</h5>
+        <p class="card-text">
+        Push boat and barge constitute pushing fleet to carry out pushing and transport..
+        </p>
+      </div>
+      <div class="card-footer">
+     
+      <Link to="/project" className="btn btn-warning ">Read more</Link>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src={sic2}
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">GA150J</h5>
+        <p class="card-text">
+        Patrol boat is of small tonnage, high-speed and flexible search, the speed is 25-40 knots..
+        </p>
+      </div>
+      <div class="card-footer">
+      <Link to="/project" className="btn btn-warning ">Read more</Link>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src={sic3}
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">GA280Y</h5>
+        <p class="card-text">
+        Patrol boat is of small tonnage, high-speed and flexible search, the speed is 25-40 knots..
+        </p>
+      </div>
+      <div class="card-footer">
+      <Link to="/project" className="btn btn-warning ">Read more</Link>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 </section>
      </div>

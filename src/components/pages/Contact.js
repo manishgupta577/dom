@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Footer from '../inc/Footer';
 
-import map from '../inc/map';
+
 
 
 function Contactus() {
@@ -86,15 +86,15 @@ function Contactus() {
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
+                    <p>Bugiri,Kawuku Entebbe road,Uganda</p>
                 </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
+                    <p>+256-782993007</p>
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
+                    <p>mangotreeafrica@gmail.com</p>
                 </li>
             </ul>
         </div>
