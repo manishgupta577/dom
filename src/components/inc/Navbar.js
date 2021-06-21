@@ -20,19 +20,19 @@ function Navbar1() {
       <Nav className="mr-auto">
       
       <div className="nav-item">
-      <Nav.Link href="/"><div className="nav-content"><b>HOME</b></div></Nav.Link>
+      <Nav.Link href="#"><div className="nav-content"><Link to="/"><b>HOME</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link href="/about"><div className="nav-content"><b>ABOUT</b></div></Nav.Link>
+      <Nav.Link href="#"><div className="nav-content"><Link to="about"><b>ABOUT</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link href="/contact"><div className="nav-content"><b>CONTACT</b></div></Nav.Link>
+        <Nav.Link href="#"><div className="nav-content"><Link to="/contact"><b>CONTACT</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link href="/project"><div className="nav-content"><b>PRODUCTS</b></div></Nav.Link>
+        <Nav.Link href="/project"><div className="nav-content"><Link to="/project"><b>PRODUCTS</b></Link></div></Nav.Link>
       </div>
       <div className="nav-item">
-        <Nav.Link eventKey={2} href="#memes"><div className="nav-content">
+        <Nav.Link eventKey={2} href="#"><div className="nav-content">
           <b>SUPPORT</b></div>
         </Nav.Link>
         </div>
